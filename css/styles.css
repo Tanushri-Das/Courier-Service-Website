@@ -903,9 +903,9 @@ input {
 .user-signup-image {
   background: #daecfa;
 }
-.user-image {
+/* .user-image {
   padding: 110px 0;
-}
+} */
 .user-signup-div {
   margin-bottom: 163px;
   margin-top: 40px;
@@ -2657,7 +2657,7 @@ i {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.google-facebook{
+.google-facebook {
   margin-bottom: 40px;
 }
 .update-signup-merchnat-section {
@@ -2789,9 +2789,7 @@ i {
   border: 1px solid #eee;
   background: #fff;
 }
-.update-user-signup{
-  height: 630px;
-}
+
 @media (max-width: 480px) {
   .banner-img {
     width: 100%;
@@ -2996,10 +2994,9 @@ i {
   .area-list {
     width: 100%;
   }
-  .update-google-box{
+  .update-google-box {
     width: 100%;
   }
-
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .banner-img {
@@ -3138,7 +3135,7 @@ i {
     right: -11px;
     top: 80.5%;
   }
-  .update-google-box{
+  .update-google-box {
     width: 100%;
     text-align: start;
   }
@@ -3287,7 +3284,10 @@ i {
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
-}
+  }
+  .update-user-signup{
+    width: 100%;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .nav-item a {
@@ -3321,15 +3321,15 @@ i {
   }
   .user-image {
     width: 100%;
-    height: 615px;
+    height: 610px;
   }
   .user-signin-form {
     width: 100%;
     height: auto;
   }
-  .singin-form-div {
+  /* .singin-form-div {
     margin-top: -65px;
-  }
+  } */
   .footer-first-div {
     margin-left: -32px;
     padding-left: 15px;
@@ -3465,11 +3465,15 @@ i {
   .update-signup-img {
     height: 747px;
   }
-  .update-google-box{
+  .update-google-box {
     width: 100%;
   }
-  .fb-btn{
+  .fb-btn {
     margin-bottom: 8px;
+  }
+  .update-user-signup{
+    width: 100%;
+    height: 700px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -3501,15 +3505,15 @@ i {
   }
   .user-image {
     width: 100%;
-    height: 615px;
+    height: 610px;
   }
   .user-signin-form {
     width: 100%;
     height: auto;
   }
-  .singin-form-div {
+  /* .singin-form-div {
     margin-top: -65px;
-  }
+  } */
   .reviews-card {
     width: 100%;
     height: 450px;
@@ -3611,12 +3615,16 @@ i {
   .update-signup-img {
     height: 747px;
   }
-  .update-google-box{
+  .update-google-box {
     width: 100%;
     text-align: start;
   }
-  .fb-btn{
+  .fb-btn {
     margin-bottom: 8px;
+  }
+  .update-user-signup{
+    width: 100%;
+    height: 700px;
   }
 }
 @media (min-width: 1500px) and (max-width: 1999px) {
@@ -3646,15 +3654,16 @@ i {
   }
   .user-signup-image {
     width: 660px;
-    height: 615px;
+    height: 510px;
+    /* height: 615px; */
   }
   .user-signin-form {
     width: 620px;
     height: 508px;
   }
-  .singin-form-div {
+  /* .singin-form-div {
     margin-top: -105px;
-  }
+  } */
   .reviews-card {
     width: 100%;
   }
@@ -3722,8 +3731,12 @@ i {
   .update-signup-img {
     height: 747px;
   }
-  .google-facebook{
+  .google-facebook {
     display: flex;
     justify-content: space-between;
+  }
+  .update-user-signup{
+    width: 100%;
+    height: 630px;
   }
 }

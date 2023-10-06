@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Courier Service Website</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg py-3">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center"
+            href="#"
+            ><img src="images/navbar-logo.png" class="logo" alt="" /><span
+              class="logo-text ms-1"
+              >RX</span
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item select-nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item select-nav-item">
+                <a class="nav-link" href="/About us.html">About</a>
+              </li>
+
+              <li class="nav-item select-nav-item">
+                <a class="nav-link" href="/charges.html">Charges</a>
+              </li>
+              <li class="nav-item select-nav-item">
+                <a class="nav-link" href="/Blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Contact us.html">Contact</a>
+              </li>
+              <!-- Add more navigation links as needed -->
+            </ul>
+            <div
+              class="form-check form-switch d-flex justify-content-center align-items-center"
+            >
+              <!-- <input
+                class="form-check-input me-4 fs-4"
+                type="checkbox"
+                id="darkModeToggle"
+              /> -->
+              <a href="/signin.html" class="login">Sign In</a>
+              <a href="signup.html" class="register">Register</a>
+              <!-- <label class="form-check-label" for="darkModeToggle"
+                >Dark Mode</label
+              > -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="">
+      <section class="coverage-area-banner">
+        <div class="container-fluid coverage-area-div">
+          <div class="centered-container">
+            <h3 class="coverage-area mb-2">Charges</h3>
+            <div class="borderbottom"></div>
+          </div>
+        </div>
+      </section>
+      <section class="Calculation-section">
+        <div class="container">
+          <h4 class="calculation-heading">Calculation</h4>
+          <p class="calculation-desc">
+            RX is a complete platform for end-to-end delivery and logistics
+            services for any business or personal needs. The services include
+            parcel delivery, bulk shipment, line hall, truck rental,
+            loading-unloading, warehouse, logistics services and customized
+            solutions as required.
+          </p>
+          <div class="row">
+            <div class="col-12 mt-4 mt-lg-0">
+              <form action="" class="calculation-form">
+                <h1 class="quick text-start">Quick Booking</h1>
+                <div class="row text-start calculation-form-first-div">
+                  <div class="col-12 col-md-6">
+                    <div class="">
+                      <label
+                        for="exampleFormControlInput1"
+                        class="form-label form-heading label-bottom"
+                        >Product Weight</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control w-full"
+                        id="exampleFormControlInput1"
+                        placeholder="Product Weight"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 only-small-form-div">
+                    <div class="">
+                      <label
+                        for="exampleFormControlInput1"
+                        class="form-label form-heading label-bottom"
+                        >Category</label
+                      >
+                      <select
+                        class="form-select w-full category-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Select</option>
+                        <option value="1">A</option>
+                        <option value="2">B</option>
+                        <option value="3">C</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-start calculation-form-second-div">
+                  <div class="col-12 col-md-6">
+                    <div class="">
+                      <label
+                        for="exampleFormControlInput1"
+                        class="form-label form-heading label-bottom"
+                        >Pickup Area</label
+                      >
+                      <select
+                        class="form-select w-full category-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Select</option>
+                        <option value="1">A</option>
+                        <option value="2">B</option>
+                        <option value="3">C</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 only-small-form-div">
+                    <div>
+                      <label
+                        for="exampleFormControlInput1"
+                        class="form-label form-heading label-bottom"
+                        >Delivery Area</label
+                      >
+                      <select
+                        class="form-select w-full category-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Select</option>
+                        <option value="1">A</option>
+                        <option value="2">B</option>
+                        <option value="3">C</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="total-deivery-cost calculation-delivery-cost">
+                  Total Delivery Cost: 00TK
+                </h4>
+                <div class="d-flex flex-start">
+                  <a href="/" class="btn area">Booking Now!</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-services manual-change-div">
+        <div class="container">
+          <h4 class="calculation-heading text-start">Manual Charge</h4>
+          <p class="calculation-desc">
+            RX is a complete platform for end-to-end delivery and logistics
+            services for any business or personal needs. The services include
+            parcel delivery, bulk shipment, line hall, truck rental,
+            loading-unloading, warehouse, logistics services and customized
+            solutions as required.
+          </p>
+        </div>
+        
+
+        <div class="container change-list-table mb-4">
+          <ul class="nav nav-tabs" id="myTabs">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                data-tab="tab1"
+                >In Dhaka City</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-tab="tab2">Out of Dhaka City</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container" id="tab1-content">
+          <div class="table-responsive">
+            <table
+              class="display table-bordered border-primary data-table"
+              style="width: 100%"
+            >
+              <thead>
+                <tr>
+                  <th class="col table-heading p-1 p-md-3">Delivery Time</th>
+                  <th class="col table-heading p-1 p-md-3">Product Type</th>
+                  <th class="col table-heading p-1 p-md-3">0KG to 5KG</th>
+                  <th class="col table-heading p-1 p-md-3">5KG to 10KG</th>
+                  <th class="col table-heading p-1 p-md-3">
+                    10KG to Unlimited
+                  </th>
+                  <th class="col table-heading p-1 p-md-3">COD</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table-data">24 Hours</td>
+                  <td class="table-data">Liquid</td>
+                  <td class="table-data">50 TK</td>
+                  <td class="table-data">70 TK</td>
+                  <td class="table-data">120 TK</td>
+                  <td class="table-data">01%</td>
+                </tr>
+                <tr>
+                  <td class="table-data">24 Hours</td>
+                  <td class="table-data">Hard</td>
+                  <td class="table-data">55 TK</td>
+                  <td class="table-data">80 TK</td>
+                  <td class="table-data">150 TK</td>
+                  <td class="table-data">02%</td>
+                </tr>
+
+                <tr>
+                  <td class="table-data">2 Days</td>
+                  <td class="table-data">Liquid</td>
+                  <td class="table-data">45 TK</td>
+                  <td class="table-data">65 TK</td>
+                  <td class="table-data">130 TK</td>
+                  <td class="table-data">01%</td>
+                </tr>
+                <tr>
+                  <td class="table-data">2 Days</td>
+                  <td class="table-data">Hard</td>
+                  <td class="table-data">45 TK</td>
+                  <td class="table-data">75 TK</td>
+                  <td class="table-data">140 TK</td>
+                  <td class="table-data">02%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="container" id="tab2-content" style="display: none">
+          <div class="table-responsive">
+            <table
+              class="display table-bordered border-primary data-table"
+              style="width: 100%"
+            >
+              <thead>
+                <tr>
+                  <th class="col table-heading p-1 p-md-3">Delivery Time</th>
+                  <th class="col table-heading p-1 p-md-3">Product Type</th>
+                  <th class="col table-heading p-1 p-md-3">0KG to 5KG</th>
+                  <th class="col table-heading p-1 p-md-3">5KG to 10KG</th>
+                  <th class="col table-heading p-1 p-md-3">
+                    10KG to Unlimited
+                  </th>
+                  <th class="col table-heading p-1 p-md-3">COD</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table-data">22 Hours</td>
+                  <td class="table-data">Liquid</td>
+                  <td class="table-data">55 TK</td>
+                  <td class="table-data">60 TK</td>
+                  <td class="table-data">110 TK</td>
+                  <td class="table-data">01%</td>
+                </tr>
+                <tr>
+                  <td class="table-data">20 Hours</td>
+                  <td class="table-data">Hard</td>
+                  <td class="table-data">50 TK</td>
+                  <td class="table-data">50 TK</td>
+                  <td class="table-data">180 TK</td>
+                  <td class="table-data">02%</td>
+                </tr>
+
+                <tr>
+                  <td class="table-data">2 Days</td>
+                  <td class="table-data">Liquid</td>
+                  <td class="table-data">45 TK</td>
+                  <td class="table-data">65 TK</td>
+                  <td class="table-data">130 TK</td>
+                  <td class="table-data">01%</td>
+                </tr>
+                <tr>
+                  <td class="table-data">2 Days</td>
+                  <td class="table-data">Hard</td>
+                  <td class="table-data">45 TK</td>
+                  <td class="table-data">75 TK</td>
+                  <td class="table-data">140 TK</td>
+                  <td class="table-data">02%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer-div">
+      <div class="footer px-5 pt-5 pb-2">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-xl-3 about-footer">
+                <ul class="footer-first-div ps-xl-0">
+                  <a class="d-flex align-items-center logo-name" href="#"
+                    ><img
+                      src="/images/navbar-logo.png"
+                      class="logo"
+                      alt=""
+                    /><span class="logo-text ms-1 text-white">RX</span></a
+                  >
+                  <li class="text-white footer-area">
+                    <i class="fas fa-map-marker-alt me-1 text-white"></i>
+                    2715 Ash Dr. San Jose, South Dakota 83475
+                  </li>
+                  <li class="">
+                    <a href="tel:(010) 1234 4321" class="text-white"
+                      ><i class="fa-solid fa-phone me-1 text-white"></i> (010) 1234 4321</a
+                    >
+                  </li>
+                  <li class="footer-email">
+                    <a href="email:(010) 1234 4321" class="text-white"
+                      ><i class="fa-solid fa-envelope me-1 text-white"></i>
+                      rx_courier_info@gmail.com</a
+                    >
+                  </li>
+                  <div class="social-links d-flex">
+                    <div
+                      class="footer-social-links d-flex justify-content-center align-items-center"
+                    >
+                      <a
+                        target="_blank"
+                        class="text-white"
+                        href="https://www.youtube.com/watch?v=JuRKPyPBLEw"
+                        ><i class="fa-brands fa-facebook-f fs-6 text-white"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="footer-social-links d-flex justify-content-center align-items-center mx-3"
+                    >
+                      <a
+                        target="_blank"
+                        class="text-white"
+                        href="https://www.youtube.com/watch?v=JuRKPyPBLEw"
+                        ><i class="fa-brands fa-twitter mx-4 text-white"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="footer-social-links d-flex justify-content-center align-items-center"
+                    >
+                      <a
+                        target="_blank"
+                        class="text-white"
+                        href="https://www.youtube.com/watch?v=JuRKPyPBLEw"
+                        ><i class="fa-brands fa-linkedin-in text-white"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="footer-social-links d-flex justify-content-center align-items-center ms-3"
+                    >
+                      <a
+                        target="_blank"
+                        class="text-white"
+                        href="https://www.youtube.com/watch?v=JuRKPyPBLEw"
+                        ><i class="fa-brands fa-instagram text-white"></i
+                      ></a>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6 col-xl-2 page-more-info">
+                <div class="footer-title">
+                  <h4 class="text-white useful-link fw-semibold">
+                    Useful Links
+                  </h4>
+                </div>
+                <ul class="ps-0">
+                  <li><a href="#" class="footer-link">About Us</a></li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Contact Us</a>
+                  </li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Our Services</a>
+                  </li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Delivery infomation</a>
+                  </li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                  </li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Track Order</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-6 col-xl-3 page-more-info useful-link-two">
+                <div class="footer-title">
+                  <h4 class="text-white useful-link fw-semibold">
+                    Useful Links
+                  </h4>
+                </div>
+                <ul class="ps-0">
+                  <li><a href="#" class="footer-link">Become a Marchant</a></li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Become a Rider</a>
+                  </li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Become a Delivery Man</a>
+                  </li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Become a Customer</a>
+                  </li>
+                  <li class="footer-alllink">
+                    <a href="#" class="footer-link">Blog</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-xl-4 open-hours useful-link-two">
+                <div class="footer-title">
+                  <h4 class="text-white dawnload-apps fw-semibold app-dawnload">
+                    Download Apps
+                  </h4>
+                </div>
+                <p class="dawnload dawnload-apps">
+                  Download our new features & easy used to app
+                </p>
+                <div class="d-md-none">
+                  <img src="images/google play.png" class="img-border" alt="" />
+                  <img class="" src="images/app store.png" alt="" />
+                </div>
+
+                <div class="google-app d-none d-md-block">
+                  <img src="images/google play.png" alt="" />
+                  <img class="ms-md-2" src="images/app store.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="text-white" />
+        <div class="footer-bottom">
+          <div class="d-flex justify-content-center align-items-center">
+            <p id="footer-year" class="copyright">
+              Copyright ${currentYear} All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1, // Display 1 card initially on small screens
+        slidesPerGroup: 1,
+        spaceBetween: 30,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".my-custom-next-button",
+          prevEl: ".my-custom-prev-button",
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2, // Display 2 cards on medium screens
+          },
+          1200: {
+            slidesPerView: 3, // Display 3 cards on large screens
+          }
+        }
+      });
+  
+      // Add console logs to check button click events
+      document.querySelector('.my-custom-prev-button').addEventListener('click', function() {
+        console.log('Previous button clicked');
+      });
+  
+      document.querySelector('.my-custom-next-button').addEventListener('click', function() {
+        console.log('Next button clicked');
+      });
+    </script>
+   <script>
+      // JavaScript to toggle the icon
+      const accordionButtons = document.querySelectorAll(".accordion-button");
+      accordionButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const icons = document.querySelectorAll(".accordion-icon");
+          icons.forEach((icon) => {
+            icon.innerHTML = "+";
+            icon.style.color = "#2B49CE"; // Set the color for the plus icon
+          });
+          const icon = button.querySelector(".accordion-icon");
+          if (!button.classList.contains("collapsed")) {
+            icon.innerHTML = "-";
+            icon.style.color = "#2B49CE"; // Set the color for the minus icon
+          }
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        // Check if the user has a preference for dark mode
+        const prefersDarkScheme = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+
+        // Initialize dark mode based on user preference
+        if (prefersDarkScheme) {
+          $("body").addClass("dark-mode");
+          $(".navbar")
+            .removeClass("navbar-light bg-light")
+            .addClass("navbar-dark bg-dark");
+          $(".navbar-nav .nav-link").addClass("text-white");
+          $(".login").addClass("text-white");
+          $(".logo-text").addClass("text-white"); // Add this line to target the logo text
+          $("#darkModeToggle").prop("checked", true);
+        }
+
+        // Dark mode toggle functionality
+        $("#darkModeToggle").change(function () {
+          $("body").toggleClass("dark-mode");
+          $(".navbar")
+            .toggleClass("navbar-light bg-light")
+            .toggleClass("navbar-dark bg-dark");
+          $(".navbar-nav .nav-link").toggleClass("text-dark text-white");
+          $(".login").toggleClass("text-dark text-white");
+          $(".logo-text").toggleClass("text-dark text-white"); // Toggle the text color for logo text
+        });
+      });
+    </script>
+
+    <script>
+      const tabs = document.querySelectorAll("#myTabs .nav-link");
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", function (event) {
+          event.preventDefault();
+          const tabId = this.getAttribute("data-tab");
+          const contentContainers = document.querySelectorAll(
+            ".container[id$='-content']"
+          );
+          contentContainers.forEach((container) => {
+            container.style.display = "none";
+          });
+          document.getElementById(tabId + "-content").style.display = "block";
+
+          // Apply active class to the clicked tab and remove from others
+          tabs.forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+        });
+      });
+    </script>
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

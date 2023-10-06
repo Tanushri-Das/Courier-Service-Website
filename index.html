@@ -25,7 +25,7 @@
     <title>Courier Service Website</title>
   </head>
   <body>
-    <header class="">
+    <header class="shadow-sm">
       <nav class="navbar navbar-expand-lg py-3">
         <div class="container">
           <a
@@ -53,26 +53,17 @@
                 <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item select-nav-item">
-                <select
-                  class="form-select"
-                  aria-label="Services"
-                  onchange="if (this.value) window.location.href=this.value;"
-                >
-                  <option selected>Services</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+                <a class="nav-link" href="/About us.html">About</a>
               </li>
 
               <li class="nav-item select-nav-item">
-                <a class="nav-link" href="">Charges</a>
+                <a class="nav-link" href="/charges.html">Charges</a>
               </li>
               <li class="nav-item select-nav-item">
-                <a class="nav-link" href="/services">Coverage</a>
+                <a class="nav-link" href="/Blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/services">Contact</a>
+                <a class="nav-link" href="/Contact us.html">Contact</a>
               </li>
               <!-- Add more navigation links as needed -->
             </ul>
@@ -84,8 +75,8 @@
                 type="checkbox"
                 id="darkModeToggle"
               /> -->
-              <a href="/singin" class="login">Sign In</a>
-              <a href="/register" class="register">Register</a>
+              <a href="/signin.html" class="login">Sign In</a>
+              <a href="signup.html" class="register">Register</a>
               <!-- <label class="form-check-label" for="darkModeToggle"
                 >Dark Mode</label
               > -->
@@ -148,57 +139,6 @@
       </section>
       <section class="logo-section">
         <div class="container border-container">
-          <!-- <div class="d-flex justify-content-center align-items-center">
-            <div
-              class="slider d-flex justify-content-center align-items-center"
-            >
-              <div class="slide-track">
-                <div class="slide me-5">
-                  <img
-                    src="./images/lattice.png"
-                    height="48"
-                    width="151"
-                    alt=""
-                  />
-                </div>
-                <div class="slide me-5">
-                  <img
-                    src="./images/descript.png"
-                    height="48"
-                    width="151"
-                    alt=""
-                  />
-                </div>
-                <div class="slide me-5">
-                  <img src="./images/maze.png" height="48" width="151" alt="" />
-                </div>
-                <div class="slide me-5">
-                  <img
-                    src="./images/mondey.png"
-                    height="48"
-                    width="151"
-                    alt=""
-                  />
-                </div>
-                <div class="slide me-5">
-                  <img
-                    src="./images/zapier.png"
-                    height="48"
-                    width="151"
-                    alt=""
-                  />
-                </div>
-                <div class="slide">
-                  <img
-                    src="./images/Airtasker.png"
-                    height="48"
-                    width="151"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="logos border-container">
             <div class="logos-slide">
               <img src="images/lattice.png" />
@@ -1189,48 +1129,99 @@
         </div>
 
         <div class="container accordions-div">
-          <div class="my-custom-prev-button">
-            <i class="fa-solid fa-arrow-left blog-arrow-left fs-5"></i>
-          </div>
-          <div class="swiper bg-white latest-news-mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="card update-latest-news-card">
-                  <img
-                    src="./images/latest-news-card-one.png"
-                    class="card-img-top rounded-none"
-                    alt="..."
-                  />
-                  <div class="card-body swiper-slide-card-body">
-                    <div class="d-flex">
-                      <div class="d-flex">
-                        <img
-                          class="icon-img"
-                          style="
-                            width: 10.667px;
-                            height: 12px;
-                            object-fit: contain;
-                          "
-                          src="/images/clock.png"
-                          alt=""
-                        /><span class="icon-text ms-1">30 Jul 2023</span>
-                      </div>
-                      <div class="d-flex" style="margin-left: 15px">
-                        <img
-                          src="/images/user.png"
-                          style="width: 10.667px; height: 12px"
-                          alt=""
-                        /><span class="icon-text ms-1">by Admin</span>
+          <div class="row justify-content-between">
+            <div class="col-12 col-lg-6">
+              <div class="card px-2 pt-2 news-card">
+                <img src="./images/new1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-start latest-news-first-div-text">
+                    30 Jul 2023/ By Admin
+                  </h5>
+                  <p class="card-text blog-desc text-start">
+                    Free Delivery On RX Food in this Ramadan Promotion World has
+                    once placed PageTraffic among the top.
+                  </p>
+                  <div class="d-flex flex-column flex-start read-more-div">
+                    <a href="#" class="read-more text-start"
+                      >Read More <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+              <div class="row d-md-none">
+                <div class="col-12">
+                  <div class="card px-2 pt-2 news-card">
+                    <img
+                      src="./images/news2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        30 Jul 2023/ By Admin
+                      </h5>
+                      <p class="card-text blog-desc text-start">
+                        There are many variations of passages of available, but
+                        the majority have suffered alteration in some form, by
+                        injected
+                      </p>
+                      <div class="d-flex flex-column flex-start">
+                        <a href="#" class="read-more text-start"
+                          >Read More <i class="fa-solid fa-arrow-right"></i
+                        ></a>
                       </div>
                     </div>
-                    <h6 class="card-title text-start latest-news-card-heading">
-                      Free Delivery On RX Food in this Ramadan Promotion
-                    </h6>
-                    <p class="card-text latest-news-card-desc text-start">
-                      Deserunt mollit anim id es Sed ut persi atis unde omnis
-                      iste natus error sit volupatem accusantium exerc
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3 mt-md-0 d-md-none">
+                <div class="col-12">
+                  <div class="card px-2 pt-2 news-card">
+                    <img
+                      src="./images/news3.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        30 Jul 2023/ By Admin
+                      </h5>
+                      <p class="card-text blog-desc text-start">
+                        Many desktop publishing packages and web page editors
+                        now use Lorem Ipsum as their default model text, and a
+                        search for
+                      </p>
+                      <div class="d-flex flex-column flex-start">
+                        <a href="#" class="read-more text-start"
+                          >Read More <i class="fa-solid fa-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card px-lg-2 pt-2 second-blog-card d-flex d-none d-md-block"
+              >
+                <div class="row">
+                  <div class="col-md-4">
+                    <img
+                      src="./images/news2.png"
+                      class="card-img-top second-div-img"
+                      alt="..."
+                    />
+                  </div>
+
+                  <div class="col-md-8 card-body pe-xl-5">
+                    <h5 class="card-title text-start">302 Jul 2023/ By Admin</h5>
+                    <p class="card-text blog-desc text-start mb-0">
+                      There are many variations of passages of available, but
+                      the majority have suffered alteration in some form, by
+                      injected
                     </p>
-                    <div class="d-flex flex-column flex-start">
+                    <div class="d-flex flex-column flex-start second-blog-read-more-div">
                       <a href="#" class="read-more text-start"
                         >Read More <i class="fa-solid fa-arrow-right"></i
                       ></a>
@@ -1238,219 +1229,24 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="card update-latest-news-card">
-                  <img
-                    src="./images/latest-news-card-img.png"
-                    class="card-img-top rounded-none"
-                    alt="..."
-                  />
-                  <div class="card-body swiper-slide-card-body">
-                    <div class="d-flex">
-                      <div class="d-flex">
-                        <img
-                          class="icon-img"
-                          style="
-                            width: 10.667px;
-                            height: 12px;
-                            object-fit: contain;
-                          "
-                          src="/images/clock.png"
-                          alt=""
-                        /><span class="icon-text ms-1">30 Jul 2023</span>
-                      </div>
-                      <div class="d-flex" style="margin-left: 15px">
-                        <img
-                          src="/images/user.png"
-                          style="width: 10.667px; height: 12px"
-                          alt=""
-                        /><span class="icon-text ms-1">by Admin</span>
-                      </div>
-                    </div>
-                    <h6 class="card-title text-start latest-news-card-heading">
-                      Free Delivery On RX Food in this Ramadan Promotion
-                    </h6>
-                    <p class="card-text latest-news-card-desc text-start">
-                      Deserunt mollit anim id es Sed ut persi atis unde omnis
-                      iste natus error sit volupatem accusantium exerc
-                    </p>
-                    <div class="d-flex flex-column flex-start">
-                      <a href="#" class="read-more text-start"
-                        >Read More <i class="fa-solid fa-arrow-right"></i
-                      ></a>
-                    </div>
+              <div
+                class="card px-lg-2 pt-2 second-blog-card d-flex mt-3 d-none d-md-block"
+              >
+                <div class="row">
+                  <div class="col-md-4">
+                    <img
+                      src="./images/news3.png"
+                      class="card-img-top second-div-img"
+                      alt="..."
+                    />
                   </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card update-latest-news-card">
-                  <img
-                    src="./images/latest-news-card-three.png"
-                    class="card-img-top rounded-none"
-                    alt="..."
-                  />
-                  <div class="card-body swiper-slide-card-body">
-                    <div class="d-flex">
-                      <div class="d-flex">
-                        <img
-                          class="icon-img"
-                          style="
-                            width: 10.667px;
-                            height: 12px;
-                            object-fit: contain;
-                          "
-                          src="/images/clock.png"
-                          alt=""
-                        /><span class="icon-text ms-1">30 Jul 2023</span>
-                      </div>
-                      <div class="d-flex" style="margin-left: 15px">
-                        <img
-                          src="/images/user.png"
-                          style="width: 10.667px; height: 12px"
-                          alt=""
-                        /><span class="icon-text ms-1">by Admin</span>
-                      </div>
-                    </div>
-                    <h6 class="card-title text-start latest-news-card-heading">
-                      Free Delivery On RX Food in this Ramadan Promotion
-                    </h6>
-                    <p class="card-text latest-news-card-desc text-start">
-                      Deserunt mollit anim id es Sed ut persi atis unde omnis
-                      iste natus error sit volupatem accusantium exerc
+
+                  <div class="col-md-8 card-body">
+                    <h5 class="card-title text-start">30 Jul 2023/ By Admin</h5>
+                    <p class="card-text blog-desc text-start mb-0">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
                     </p>
-                    <div class="d-flex flex-column flex-start">
-                      <a href="#" class="read-more text-start"
-                        >Read More <i class="fa-solid fa-arrow-right"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card update-latest-news-card">
-                  <img
-                    src="./images/latest-news-card-four.png"
-                    class="card-img-top rounded-none"
-                    alt="..."
-                  />
-                  <div class="card-body swiper-slide-card-body">
-                    <div class="d-flex">
-                      <div class="d-flex">
-                        <img
-                          class="icon-img"
-                          style="
-                            width: 10.667px;
-                            height: 12px;
-                            object-fit: contain;
-                          "
-                          src="/images/clock.png"
-                          alt=""
-                        /><span class="icon-text ms-1">30 Jul 2023</span>
-                      </div>
-                      <div class="d-flex" style="margin-left: 15px">
-                        <img
-                          src="/images/user.png"
-                          style="width: 10.667px; height: 12px"
-                          alt=""
-                        /><span class="icon-text ms-1">by Admin</span>
-                      </div>
-                    </div>
-                    <h6 class="card-title text-start latest-news-card-heading">
-                      Free Delivery On RX Food in this Ramadan Promotion
-                    </h6>
-                    <p class="card-text latest-news-card-desc text-start">
-                      Deserunt mollit anim id es Sed ut persi atis unde omnis
-                      iste natus error sit volupatem accusantium exerc
-                    </p>
-                    <div class="d-flex flex-column flex-start">
-                      <a href="#" class="read-more text-start"
-                        >Read More <i class="fa-solid fa-arrow-right"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card update-latest-news-card">
-                  <img
-                    src="./images/latest-news-card-three.png"
-                    class="card-img-top rounded-none"
-                    alt="..."
-                  />
-                  <div class="card-body swiper-slide-card-body">
-                    <div class="d-flex">
-                      <div class="d-flex">
-                        <img
-                          class="icon-img"
-                          style="
-                            width: 10.667px;
-                            height: 12px;
-                            object-fit: contain;
-                          "
-                          src="/images/clock.png"
-                          alt=""
-                        /><span class="icon-text ms-1">30 Jul 2023</span>
-                      </div>
-                      <div class="d-flex" style="margin-left: 15px">
-                        <img
-                          src="/images/user.png"
-                          style="width: 10.667px; height: 12px"
-                          alt=""
-                        /><span class="icon-text ms-1">by Admin</span>
-                      </div>
-                    </div>
-                    <h6 class="card-title text-start latest-news-card-heading">
-                      Free Delivery On RX Food in this Ramadan Promotion
-                    </h6>
-                    <p class="card-text latest-news-card-desc text-start">
-                      Deserunt mollit anim id es Sed ut persi atis unde omnis
-                      iste natus error sit volupatem accusantium exerc
-                    </p>
-                    <div class="d-flex flex-column flex-start">
-                      <a href="#" class="read-more text-start"
-                        >Read More <i class="fa-solid fa-arrow-right"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card update-latest-news-card">
-                  <img
-                    src="./images/latest-news-card-img.png"
-                    class="card-img-top rounded-none"
-                    alt="..."
-                  />
-                  <div class="card-body swiper-slide-card-body">
-                    <div class="d-flex">
-                      <div class="d-flex">
-                        <img
-                          class="icon-img"
-                          style="
-                            width: 10.667px;
-                            height: 12px;
-                            object-fit: contain;
-                          "
-                          src="/images/clock.png"
-                          alt=""
-                        /><span class="icon-text ms-1">30 Jul 2023</span>
-                      </div>
-                      <div class="d-flex" style="margin-left: 15px">
-                        <img
-                          src="/images/user.png"
-                          style="width: 10.667px; height: 12px"
-                          alt=""
-                        /><span class="icon-text ms-1">by Admin</span>
-                      </div>
-                    </div>
-                    <h6 class="card-title text-start latest-news-card-heading">
-                      Free Delivery On RX Food in this Ramadan Promotion
-                    </h6>
-                    <p class="card-text latest-news-card-desc text-start">
-                      Deserunt mollit anim id es Sed ut persi atis unde omnis
-                      iste natus error sit volupatem accusantium exerc
-                    </p>
-                    <div class="d-flex flex-column flex-start">
+                    <div class="d-flex flex-column flex-start second-blog-read-more-div">
                       <a href="#" class="read-more text-start"
                         >Read More <i class="fa-solid fa-arrow-right"></i
                       ></a>
@@ -1460,10 +1256,6 @@
               </div>
             </div>
           </div>
-          <div class="my-custom-next-button">
-            <i class="fa-solid fa-arrow-right fs-5 text-white"></i>
-          </div>
-          <div class="swiper-pagination"></div>
         </div>
       </section>
       <section class="container marchant-cycle-div">
